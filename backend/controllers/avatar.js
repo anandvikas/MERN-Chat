@@ -12,11 +12,11 @@ const {
 exports.getAvatars = async (req, res, next) => { 
 
   let avatars = [
-    "uploads/avatar/a1.jpg",
-    "uploads/avatar/a2.jpg",
-    "uploads/avatar/a3.jpg",
-    "uploads/avatar/a4.jpg",
-    "uploads/avatar/a5.jpg"
+    "uploads/avatar/a1.JPG",
+    "uploads/avatar/a2.JPG",
+    "uploads/avatar/a3.JPG",
+    "uploads/avatar/a4.JPG",
+    "uploads/avatar/a5.JPG"
   ] 
 
   res.status(200).json({
