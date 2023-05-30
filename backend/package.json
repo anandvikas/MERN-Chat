@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "nodemon --delay 500ms app.js"
+    "server": "nodemon --delay 500ms app.js",
+    "build" : "npm i"
   },
   "keywords": [],
   "author": "",
