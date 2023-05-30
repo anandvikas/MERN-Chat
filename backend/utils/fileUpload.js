@@ -1,6 +1,6 @@
 const multer = require("multer");
-const path = require("node:path");
-const fs = require("node:fs")
+const path = require("path");
+const fs = require("fs")
 
 const MIME_TYPE_MAP = {
   "image/png": "png",
