@@ -6,10 +6,10 @@ import { CommonInput } from "../Form/Form"
 import { toast } from 'react-toastify';
 import useRequest from "../../hooks/UseRequest"
 import { updateProfile } from "../../store/action"
-import {PORT}  from "../../constant/api"
+import { PORT } from "../../constant/api"
 
 const AccountSetting = () => {
-    const { handleSubmit, register, formState: { errors }, setValue, watch } = useForm();
+    const { handleSubmit, register, formState: { errors }, setValue } = useForm();
     const { user } = useSelector(store => store.generalReducer);
     const dispatch = useDispatch()
     const [avatars, setAvatars] = useState([]);
