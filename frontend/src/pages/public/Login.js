@@ -21,7 +21,7 @@ const Login = () => {
     const dispatch = useDispatch()
 
     useEffect(() => {
-        setTimeout(() => { setIntroMsgOpen(true) }, 2000)
+        // setTimeout(() => { setIntroMsgOpen(true) }, 2000)
     }, [])
 
     const submitForm = (data) => {

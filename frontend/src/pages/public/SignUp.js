@@ -30,7 +30,7 @@ const SignUp = () => {
 
     useEffect(() => {
         avatarReq("GET", "/avatar");
-        setTimeout(() => { setIntroMsgOpen(true) }, 2000);
+        // setTimeout(() => { setIntroMsgOpen(true) }, 2000);
     }, [])
 
     useEffect(() => {
